@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#import "Person.h"
+#import "Student.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +20,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //类实现
+    Person *p1 = [Person shareInstance];
+    
+    NSLog(@"%@",p1);
+    
+    Person *p2 = [Person shareInstance];
+    
+    NSLog(@"%@",p2);
+
+    
+    Person *p3 = [Person shareInstance];
+    
+    NSLog(@"%@",p3);
+    
+    //宏实现
+    Student *s1 = [Student sharedStudent];
+    
+    NSLog(@"%@",s1);
+    
+    
+    Student *s2 = [Student sharedStudent];
+    
+    NSLog(@"%@",s2);
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

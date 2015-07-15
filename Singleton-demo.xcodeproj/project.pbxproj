@@ -14,6 +14,8 @@
 		449B00561B569DE100903723 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449B00551B569DE100903723 /* Images.xcassets */; };
 		449B00591B569DE100903723 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449B00571B569DE100903723 /* LaunchScreen.xib */; };
 		449B00651B569DE100903723 /* Singleton_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B00641B569DE100903723 /* Singleton_demoTests.m */; };
+		449B00701B569DFC00903723 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B006F1B569DFC00903723 /* Person.m */; };
+		449B00741B56A3AB00903723 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B00731B56A3AB00903723 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,12 @@
 		449B005E1B569DE100903723 /* Singleton-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Singleton-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		449B00631B569DE100903723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		449B00641B569DE100903723 /* Singleton_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton_demoTests.m; sourceTree = "<group>"; };
+		449B006E1B569DFC00903723 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		449B006F1B569DFC00903723 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		449B00711B56A10B00903723 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		449B00721B56A3AB00903723 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		449B00731B56A3AB00903723 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		449B00751B56A4C400903723 /* LYTSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LYTSingleton.h; path = ../LYTSingleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,12 @@
 				449B00551B569DE100903723 /* Images.xcassets */,
 				449B00571B569DE100903723 /* LaunchScreen.xib */,
 				449B00481B569DE100903723 /* Supporting Files */,
+				449B006E1B569DFC00903723 /* Person.h */,
+				449B006F1B569DFC00903723 /* Person.m */,
+				449B00711B56A10B00903723 /* common.h */,
+				449B00751B56A4C400903723 /* LYTSingleton.h */,
+				449B00721B56A3AB00903723 /* Student.h */,
+				449B00731B56A3AB00903723 /* Student.m */,
 			);
 			path = "Singleton-demo";
 			sourceTree = "<group>";
@@ -221,6 +235,8 @@
 			files = (
 				449B00511B569DE100903723 /* ViewController.m in Sources */,
 				449B004E1B569DE100903723 /* AppDelegate.m in Sources */,
+				449B00741B56A3AB00903723 /* Student.m in Sources */,
+				449B00701B569DFC00903723 /* Person.m in Sources */,
 				449B004B1B569DE100903723 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
